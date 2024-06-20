@@ -1,2 +1,1 @@
-kasmweb/desktop:1.15.0
-kasmweb/desktop:1.14.0
+liangjw/kube-webhook-certgen:v1.1.1
