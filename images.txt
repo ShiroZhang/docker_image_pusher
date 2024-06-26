@@ -1,1 +1,1 @@
-gitlab/gitlab-runner:latest
+sonatype/nexus3:3.69.0-java11
