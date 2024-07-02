@@ -1,1 +1,2 @@
-sonatype/nexus3:3.69.0-java11
+node:16.18-alpine
+nginx:latest
