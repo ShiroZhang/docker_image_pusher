@@ -7,10 +7,10 @@ on:
 
 
 env:
-  ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
-  ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
-  ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
-  ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
+  HUAWEI_REGISTRY: "${{ secrets.HUAWEI_REGISTRY }}"
+  HUAWEI_NAME_SPACE: "${{ secrets.HUAWEI_NAME_SPACE }}"
+  HUAWEI_REGISTRY_USER: "${{ secrets.HUAWEI_REGISTRY_USER }}"
+  HUAWEI_REGISTRY_PASSWORD: "${{ secrets.HUAWEI_REGISTRY_PASSWORD }}"
 
 jobs:
 
@@ -24,9 +24,9 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
-    - name: Build and push image Aliyun
+    - name: Build and push image HUAWEI
       run: |
-        docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
+        docker login -u $HUAWEI_REGISTRY_USER -p $HUAWEI_REGISTRY_PASSWORD $HUAWEI_REGISTRY
         while IFS= read -r line; do
           [[ -z "$line" ]] && continue
           echo "docker pull $line"
@@ -44,7 +44,7 @@ jobs:
           image=$(echo "$line" | awk '{print $NF}')
           # 获取 镜像名:版本号  例如nginx:1.25.3
           image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
-          new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$platform_prefix$image_name_tag"
+          new_image="$HUAWEI_REGISTRY/$HUAWEI_NAME_SPACE/$platform_prefix$image_name_tag"
           echo "docker tag $image $new_image"
           docker tag $image $new_image
           echo "docker push $new_image"
