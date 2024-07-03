@@ -1,1 +1,1 @@
-node:18.12-alpine
+determinedai/environments:cuda-11.8-pytorch-2.0-gpu-mpi-0.31.1
