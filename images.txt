@@ -1,1 +1,4 @@
+determinedai/environments:cuda-11.3-base-gpu-mpi-0.31.1
+determinedai/environments:cuda-11.8-base-gpu-mpi-0.31.1
+determinedai/environments:cuda-11.3-pytorch-1.12-gpu-mpi-0.31.1
 determinedai/environments:cuda-11.8-pytorch-2.0-gpu-mpi-0.31.1
