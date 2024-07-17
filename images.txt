@@ -1,1 +1,1 @@
-sonatype/nexus3:3.69.0-java11
+maven:3.8.4-jdk-8
