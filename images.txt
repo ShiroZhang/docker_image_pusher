@@ -1,1 +1,1 @@
-jenkins/jenkins:2.452.3-lts
+gitlab-ce:16.9.2-ce.0
