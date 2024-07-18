@@ -1,1 +1,1 @@
-node:16.18-alpine
+nginx:latest
