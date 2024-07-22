@@ -1,1 +1,2 @@
-determinedai/determined-agent:0.26.3
+snowdreamtech/frps:latest
+snowdreamtech/frpc:latest
