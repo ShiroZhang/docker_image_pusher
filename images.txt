@@ -1,2 +1,1 @@
-snowdreamtech/frps:latest
-snowdreamtech/frpc:latest
+gitlab/gitlab-runner:latest
