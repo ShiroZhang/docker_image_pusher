@@ -1,1 +1,1 @@
-gitlab/gitlab-runner:latest
+node:lts-slim
