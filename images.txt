@@ -1,1 +1,1 @@
-node:lts-slim
+registry.gitlab.com/gitlab-org/cluster-integration/gitlab-agent/agentk:v16.9.2
