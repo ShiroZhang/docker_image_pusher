@@ -1,1 +1,1 @@
-bitnami/kubectl:latest
+bitnami/mariadb-galera:11.4.2-debian-12-r8
