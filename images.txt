@@ -1,1 +1,1 @@
-bitnami/mariadb-galera:10.11.4-debian-11-r46
+nginx:1.27.0-alpine-slim
