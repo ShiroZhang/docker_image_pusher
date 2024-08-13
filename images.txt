@@ -1,1 +1,1 @@
-determinedai/pytorch-ngc:0.34.0
+node:18.16-alpine
