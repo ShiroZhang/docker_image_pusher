@@ -1,1 +1,1 @@
-node:18.16-alpine
+nvcr.io/nvidia/pytorch:24.03-py3
