@@ -1,4 +1,2 @@
-dragonflyoss/scheduler:latest
-dragonflyoss/manager:latest
-dragonflyoss/client:latest
-dragonflyoss/dfinit:latest
+mysql:latest
+redis:latest
