@@ -1,2 +1,1 @@
-mysql:latest
-redis:latest
+kindest/node:v1.31.0
