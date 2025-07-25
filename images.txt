@@ -1,1 +1,4 @@
-kindest/node:v1.32.0
+fyneio/fyne-cross-image:1.2.0-base
+fyneio/fyne-cross-image:1.2.0-darwin
+fyneio/fyne-cross-image:1.2.0-windows
+fyneio/fyne-cross-image:1.2.0-linux
